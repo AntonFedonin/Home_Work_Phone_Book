@@ -1,4 +1,4 @@
-import data_base as db
+import logger as lg
 
 
 def new_contact():
@@ -7,5 +7,5 @@ def new_contact():
     phone = input('Введите номер телефона: ')
     discription = input('Введите описание: ')
     contact = [name, surname, phone, discription]
-    db.write_contact(contact)
+    lg.write_contact(contact)
     return contact
