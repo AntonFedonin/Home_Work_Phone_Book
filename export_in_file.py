@@ -4,7 +4,7 @@ path_to_db = 'db.json'
 
 
 def export_txt():
-    name = input('Введите имя или фамилию контакта, для экспорта в файл:  ')
+    # name = input('Введите имя или фамилию контакта, для экспорта в файл:  ')
 
     with open(path_to_db, 'r', encoding='UTF-8') as file:
         data = json.load(file)
@@ -14,5 +14,5 @@ def export_txt():
                     export.write('\n' + "".join(data[i]['Name']) + ' ' + "".join(
                         data[i]['Surname']) + ' ' + "".join(data[i]['Phone number']) + ' ' + "".join(data[i]['Comment']))
 
-    print('\nКонтакт успешно экспортирован в файл!\n')
+    print('\nКонтакты успешно экспортированы в файл!\n')
     contriller.user_choice()
