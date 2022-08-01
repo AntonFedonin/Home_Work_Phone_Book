@@ -1,3 +1,5 @@
-import controller as c
+import contriller
+import user_interface as ui
 
-c.start()
+ui.start()
+contriller.user_choice()
