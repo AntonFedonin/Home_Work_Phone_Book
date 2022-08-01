@@ -21,4 +21,4 @@
 
 * Марина Ноздрачева
 + файл Readmi.md
-+ export_txt
++ export_in_file
