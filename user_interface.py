@@ -1,4 +1,5 @@
 import chek
+from export_in_file import export_txt
 
 
 def start():
@@ -15,6 +16,7 @@ def menu():
     change_surname = '3. Изменить фамилию'
     delete_contact = '4. Удалить контакт'
     view_all_contact = '5. Показать все контакты'
-    to_exit = '6. Выход'
-    print(f'{what_to_do}\n\n{new_book}\n{new_contact}\n{change_number}\n{change_surname}\n{delete_contact}\n{view_all_contact}\n{to_exit}')
+    export_to_file = '6. Экспортировать контакт в файл'
+    to_exit = '7. Выход'
+    print(f'{what_to_do}\n\n{new_book}\n{new_contact}\n{change_number}\n{change_surname}\n{delete_contact}\n{view_all_contact}\n{export_to_file}\n{to_exit}')
     return chek.digit_check()
