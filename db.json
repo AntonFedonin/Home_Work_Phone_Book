@@ -40,5 +40,11 @@
     "Surname": "Sparrow",
     "Phone number": "23-5234-623",
     "Comment": "Capitan Jack Sparrow"
+  },
+  {
+    "Name": "Gleb",
+    "Surname": "Zheglov",
+    "Phone number": "02",
+    "Comment": "Ya skazal, Gorbatiy!"
   }
 ]
